@@ -108,8 +108,8 @@ plot(mde, col = terrain.colors(n = 255))
 
 
 ```{r raster2}
-miprovle <- raster::extract(mde, miprov)[[1]]
-miprovle
-summary(miprovle)
-hist(miprovle)
+miprovele <- raster::extract(mde, miprov)[[1]]
+miprovele
+summary(miprovele)
+hist(miprovele)
 ```
